@@ -32,3 +32,4 @@ Replace backend endpoints in `network.py` when your real backend is available.
 
 ## Replacing with real backend
 Edit `network.py` and set `BASE = "https://api.yourbackend.example/v1"` (or use environment variable `LEAUDIO_BACKEND`). Ensure your backend accepts the same payloads as represented in `mock_backend.py` or adapt `network.py` to match the real API shape.
+# LE_Audio-and-Backend
